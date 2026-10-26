@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "lsf.github-action.security-fork.v1",
+  "upstreamRepository": "actions/setup-node",
+  "upstreamRevision": "949feb2413d6458794dcd2491c4babbbce0c15c1",
+  "upstreamTag": "v7.1.0",
+  "runtime": "node24",
+  "nodeBuild": "24.19.0",
+  "dependencyOverrides": {
+    "smol-toml@1": "1.9.1",
+    "undici@6": "6.29.1"
+  },
+  "productionPackages": 59,
+  "osvFindingCount": 0,
+  "validation": {
+    "name": "setup-node",
+    "node": "v24.19.0",
+    "calls": [
+      {
+        "stage": "lock",
+        "status": 0,
+        "signal": null
+      },
+      {
+        "stage": "install",
+        "status": 0,
+        "signal": null
+      },
+      {
+        "stage": "build",
+        "status": 0,
+        "signal": null
+      },
+      {
+        "stage": "test",
+        "status": 0,
+        "signal": null
+      }
+    ],
+    "status": 0
+  },
+  "upstreamTests": [
+    "Test Suites: 11 passed, 11 total",
+    "Tests:       235 passed, 235 total",
+    "Snapshots:   0 total",
+    "Time:        37.278 s"
+  ],
+  "bundles": {
+    "dist/cache-save/index.js": {
+      "bytes": 3287333,
+      "sha256": "868a20e4f34110e1dc03329190654ab4a2169acf9224e41faa6c7b37197af893"
+    },
+    "dist/cache-save/package.json": {
+      "bytes": 23,
+      "sha256": "3ca9d4afd21425087cf31893b8f9f63c81b0b8408db5e343ca76e5f8aa26ab9a"
+    },
+    "dist/setup/index.js": {
+      "bytes": 3555763,
+      "sha256": "59e6655bcc973a36104111b73b0b6468ba3fb3dc4f2530b474c5ccda388f9548"
+    },
+    "dist/setup/package.json": {
+      "bytes": 23,
+      "sha256": "3ca9d4afd21425087cf31893b8f9f63c81b0b8408db5e343ca76e5f8aa26ab9a"
+    }
+  }
+}
